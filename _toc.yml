@@ -1,0 +1,10 @@
+- file: sarrera_orokorra
+  numbered: true
+
+
+# Termodinamika, 1. partziala
+#  asteek chapter bana eta barruan, asteko egunak
+
+- part: Termodinamika, zalantzak
+  chapters:
+    - file: termodinamika_zalantzak/20200923_01

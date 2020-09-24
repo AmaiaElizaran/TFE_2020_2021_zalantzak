@@ -1,0 +1,46 @@
+# Book settings
+title: Termodinamika eta Fisika Estatiskoa, Zalantzak
+author: Josu M Igartua
+logo: logotipo_ehu.jpg
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+
+html:
+  comments:
+    hypothesis: true
+#    utterances:
+#      repo: "https://github.com/jmigartua/TFE_2020_2021"
+  google_analytics_id: UA-177055657-1    ################
+  home_page_in_navbar: false
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  baseurl: https://upbeat-yonath-4a6aa2.netlify.app/ ############
+
+
+parse:
+  myst_extended_syntax: true
+
+sphinx:
+  extra_extensions:
+  - sphinx_tabs.tabs
+
+launch_buttons:
+  notebook_interface: "classic" # The interface interactive links will activate ["classic", "jupyterlab"]
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"
+  thebe: true
+
+#repository:
+#  url                       : https://upbeat-yonath-4a6aa2.netlify.app  # Online location of your book
+#  #path_to_book              : path/to/book  # Optional path to your book, relative to the repository root
+#  branch                    : master  # Which branch of the repository should be used when creating links (optional)
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/jmigartua/TFE_2020_2021 # Online location of your book
+  #path_to_book: TFE_2020_2021   # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
