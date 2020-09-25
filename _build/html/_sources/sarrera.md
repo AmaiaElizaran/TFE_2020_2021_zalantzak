@@ -1,6 +1,0 @@
-# Sarrera orkorra    
-
-
-
-
-Zalantzak
